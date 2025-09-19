@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     // For loop example
+    // for (initialization; condition; increment/decrement){statements;}
     cout << "For loop from 1 to 5:" << endl;
     for (int i = 0; i < 5; i++)
     {
@@ -11,6 +12,7 @@ int main() {
 
     cout << endl;
     //while loop example
+    // while (condition){statements; increment/decrement;}
     cout << "While loop from 1 to 5:" << endl;
     int j = 0;
     while (j<5)
@@ -21,6 +23,7 @@ int main() {
     
     cout << endl;
     //do-while loop example
+    // do{statements; increment/decrement;} while (condition);
     cout << "Do-while loop from 1 to 5:" << endl;
     int k = 0;
     do{
